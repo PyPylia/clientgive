@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "clientgive",
+  "version": "${version}",
+  "name": "clientgive",
+  "description": "A simple clientside utility for spawning in any item within Creative mode.",
+  "authors": [
+    "PyPylia"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/PyPylia/clientgive"
+  },
+  "license": "MIT",
+  "icon": "assets/clientgive/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.pypylia.clientgive.ClientGiveMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
